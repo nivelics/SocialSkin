@@ -1,0 +1,82 @@
+<div class="opening">
+	<picture class="img-main">
+		<source type="image/webp" srcset="">
+		<source type="image/jp2" srcset="">
+		<source type="image/jxr" srcset="">
+		<img src="{{objectHtml.banner.image}}" alt="">
+	</picture>
+	<div class="container">
+		<div class="info">
+			<h1 class="title">{{objectHtml.banner.title}}</h1>
+			<p class="lead" [innerHtml]="objectHtml.banner.summary"></p>
+			<p class="spc">
+				<strong>{{objectHtml.banner.phrase}}</strong>
+			</p>
+			<p class="color">{{objectHtml.banner.slogan}}</p>
+		</div>
+		<div class="calendar">
+			<h2 class="main-title">{{objectHtml.activities.section.title}}</h2>
+			<div class="item" *ngFor="let objectActivities of objectHtml.activities.data">
+				<picture class="img">
+					<source type="image/webp" srcset="">
+					<source type="image/jp2" srcset="">
+					<source type="image/jxr" srcset="">
+					<img [src]="objectActivities.image" alt="Inscripción de logros">
+				</picture>
+				<div class="info">
+					<p class="date" *ngIf="objectActivities.final">{{objectActivities.start | formatDate}} - {{objectActivities.final | formatDate}}</p>
+					<p class="date" *ngIf="!objectActivities.final">{{objectActivities.start | formatDate}}</p>
+					<p>{{objectActivities.title}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="grid-shadow">
+	<h2 class="main-title">{{objectHtml.adwards.section.title}}</h2>
+	<p class="main-lead">{{objectHtml.adwards.section.phrase}}</p>
+	<div class="container">
+		<div class="item color{{i + 1}}" *ngFor="let objectAwards of objectHtml.adwards.data; let i = index">
+			<img [src]="objectAwards.image" height="200" width="213">
+			<div class="box">
+				<h3 class="title">{{objectAwards.title}}</h3>
+				<p [innerHtml]="objectAwards.summary"></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="box-num">
+	<h2 class="main-title">{{objectHtml.requirements.section.title}}</h2>
+	<div class="container">
+		<div class="num" *ngFor="let matrixRequirements of matrixRequirementsArrayData">
+			<div class="item" *ngFor="let objectRequirementData of matrixRequirements">
+				<span>{{objectRequirementData.posicion}}</span>
+				<p [innerHtml]="objectRequirementData.data.summary"></p>
+			</div>
+		</div>
+	</div>
+	<div class="btns">
+		<a class="btn-line" href="#">Bases y condiciones del premio</a>
+		<a class="btn-line" href="#">Criterios de evaluación</a>
+	</div>
+</div>
+
+<div class="jury-carousel medium">
+	<h2 class="main-title">{{objectHtml.judges.section.title}}</h2>
+	<div class="container">
+		<ngx-slick-carousel class="carousel" [config]="carouselConfig">
+			<div ngxSlickItem class="slide" *ngFor="let objectArrayJudges of objectHtml.judges.data">
+				<picture class="box-img">
+					<source type="image/webp" srcset="">
+					<source type="image/jp2" srcset="">
+					<source type="image/jxr" srcset="">
+					<img [src]="objectArrayJudges.image" alt="Image" class="img-contain">
+				</picture>
+				<h3 class="title">{{objectArrayJudges.name}}</h3>
+				<p [innerHtml]="objectArrayJudges.summary"></p>
+			</div>
+		</ngx-slick-carousel>
+	</div>
+</div>

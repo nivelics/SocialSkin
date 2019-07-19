@@ -1,0 +1,25 @@
+@import "../../../assets/scss/global/variables";
+@import "../../../assets/scss/global/extends";
+
+.container{
+	margin-bottom: 80px;
+}
+.main-title{
+	color: $tenColor;
+	margin-bottom: 50px;
+	text-align: left;
+	&:after{
+		background: $tenColor;
+		margin: 5px 0;
+	}
+}
+a{
+	word-break: break-all;
+}
+
+@media screen and (max-width: 767px){
+	.main-title{
+		font-size: 22px;
+		line-height: 27px;
+	}
+}

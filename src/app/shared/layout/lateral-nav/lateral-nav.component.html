@@ -1,0 +1,51 @@
+<div class="lateral-nav">
+	<h2 class="main-title desktop">Categorías</h2>
+	<h3 class="cat mobile" (click)="clickEvent()" [ngClass]="status ? 'open' : ''">
+		<i class="icon-all"></i>Todas las categorías
+		<i class="icon-angle"></i>
+	</h3>
+	<ul [ngClass]="status ? 'open' : ''">
+		<li (click)="filterFinalist('salud_y_bienestar')">
+			<i class="icon-salud"></i>
+			<h3 class="cat">
+				<a>Salud y Bienestar</a>
+			</h3>
+		</li>
+		<li (click)="filterFinalist('educación_de_calidad')">
+			<i class="icon-educacion"></i>
+			<h3 class="cat">
+				<a>Eduación de Calidad</a>
+			</h3>
+		</li>
+		<li (click)="filterFinalist('trabajo_decente_y_crecimiento_economico_sostenible')">
+			<i class="icon-trabajo"></i>
+			<h3 class="cat">
+				<a>Trabajo Decente y Crecimiento Económico Sostenible</a>
+			</h3>
+		</li>
+		<li (click)="filterFinalist('inclusion,_reduccion_de_desigualdades_y_pobreza')">
+			<i class="icon-inclusion"></i>
+			<h3 class="cat">
+				<a>Inclusión, reducción de desigualdades y pobreza</a>
+			</h3>
+		</li>
+		<li (click)="filterFinalist('transparencia,_justicia_y_cero_corrupción')">
+			<i class="icon-pz"></i>
+			<h3 class="cat">
+				<a>Paz, justicia e Instituciones sólidas</a>
+			</h3>
+		</li>
+		<li (click)="filterFinalist('impacto_al_medio_ambiente')">
+			<i class="icon-liderazgo"></i>
+			<h3 class="cat">
+				<a>Medio Ambiente</a>
+			</h3>
+		</li>
+		<li (click)="filterFinalist('ciudades_y_comunidades_sostenibles')">
+			<i class="icon-ciudades"></i>
+			<h3 class="cat">
+				<a>Ciudades y Comunidades Sosteniblees</a>
+			</h3>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,60 @@
+@import "../../assets/scss/global/variables";
+@import "../../assets/scss/global/extends";
+
+.dialog-wrapper{
+	position: relative;
+}
+.main-title{
+	color: $sixColor;
+	font-size: 24px;
+	margin: 10px 0 0;
+	padding-top: 20px;
+	position: relative;
+	text-align: center;
+	&:after{
+		background: $sixColor;
+	}
+}
+img{
+	display: block;
+	margin: 0 auto 0;
+}
+.btn-close{
+	background: transparent;
+	border: 0;
+	color: $ui-03;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+p{
+	color: $ui-02;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: center;
+}
+.btn-line{
+	background: transparent;
+	border: 3px solid $sixColor;
+	border-radius: 8px;
+	color: $sixColor;
+	cursor: pointer;
+	font-family: $mainFontBold;
+	font-size: 16px;
+	margin-bottom: 50px;
+	max-width: 230px;
+	transition: all .8s;
+	&:hover{
+		background: $sixColor;
+		color: $ui-04;
+		transition: all .8s;
+	}
+}
+@media screen and (max-width: 767px){
+	.main-title{
+		font-size: 18px;
+	}
+}

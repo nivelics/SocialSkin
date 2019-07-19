@@ -1,0 +1,26 @@
+@import "../../../../assets/scss/global/variables";
+@import "../../../../assets/scss/global/extends";
+
+.btn-close{
+	background: none;
+	border: 2px solid $ui-04;
+	border-radius: 100%;
+	color: $ui-04;
+	cursor: pointer;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0;
+	text-align: center;
+	transform: scale(1);
+	transition: transform .8s;
+	width: 40px;
+	&:hover{
+		transform: scale(1.1);
+		transition: transform .8s;
+	}
+}
+.dialog-wrapper{
+	position: relative;
+	text-align: center;
+}

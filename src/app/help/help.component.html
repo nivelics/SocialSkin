@@ -1,0 +1,38 @@
+<div class="dialog-wrapper">
+	<div mat-dialog-title class="main-title">
+		¿Tienes alguna duda?
+		<button class="btn-close" mat-dialog-close><i class="icon-clear-button"></i></button>
+	</div>
+	<div mat-dialog-content>
+		<p>Déjanos tus datos para brindarte más información acerca del concurso</p>
+		<form >
+			<div class="form-item">
+				<label>Nombres y apellidos</label>
+				<input type="text" required>
+				<mat-error>Nombres y apellidos son obligatorios</mat-error>
+			</div>
+			<div class="form-item">
+				<label>Teléfono</label>
+				<input type="number">
+			</div>
+			<div class="form-item">
+				<label>Correo</label>
+				<input type="email" required>
+				<mat-error>Correo es obligatorio</mat-error>
+			</div>
+			<div class="form-item">
+				<label>Mensaje</label>
+				<textarea required></textarea>
+				<mat-error>Mensaje es obligatorio</mat-error>
+			</div>
+			<div class="form-item check">
+				<input type="checkbox" id="terms" required>
+				<label for="terms">Acepto la <a href="#">Política de Privacidad y tratamiento de datos personales.</a></label>
+				<mat-error>Política de Privacidad y tratamiento de datos personales es obligatorio</mat-error>
+			</div>
+			<div class="form-item">
+				<input type="submit" value="Enviar datos" class="btn-line" (click)="openDialog()">
+			</div>
+		</form>
+	</div>
+</div>

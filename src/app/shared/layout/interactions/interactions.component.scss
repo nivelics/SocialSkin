@@ -1,0 +1,23 @@
+@import "../../../../assets/scss/global/variables";
+@import "../../../../assets/scss/global/extends";
+
+div{
+	@extend %alignVertical;
+	color: $ui-02;
+	font-family: $mainFontlight;
+	font-size: 14px;
+	i{
+		margin-right: 6px;
+	}
+}
+.comments{
+	margin: 0 60px;
+}
+
+@media screen and (max-width: 767px){
+	div{
+		span{
+			display: none;
+		}
+	}
+}

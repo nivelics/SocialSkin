@@ -1,0 +1,24 @@
+Sitemap: https://social-skin.com/sitemap.xml
+
+User-agent: Googlebot 
+
+Allow: / 
+User-agent: Googlebot-Image 
+
+Allow: / 
+User-agent: Googlebot-Video 
+
+Allow: / 
+User-agent: Googlebot-Mobile 
+
+Allow: / 
+User-agent: * Disallow: /pdf/ 
+
+Disallow: 
+/terminos-y-condiciones/ 
+
+Disallow: 
+/politicas-de-privacidad/ 
+
+Disallow: 
+/bases-y-condiciones-del-premio/ 

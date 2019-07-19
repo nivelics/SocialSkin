@@ -1,0 +1,31 @@
+@import "../../../../assets/scss/global/variables";
+@import "../../../../assets/scss/global/extends";
+
+.partners-carousel{
+	padding: 30px 0 100px;
+	.container{
+		max-width: 1440px;
+	}
+	.main-title{
+		margin-bottom: 30px;
+		&:after{
+			background: $fourColor;
+		}
+	}
+	img{
+		filter: grayscale(1);
+		height: auto;
+		opacity: .6;
+		width: 100%;
+	}
+	.box-img{
+		display: block;
+		margin: 0 14px;
+		&:hover{
+			img{
+				filter: grayscale(0);
+				opacity: 1;
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+<app-banner [bg]="''" [showMenu]="true" [titleBanner]="objectHtml.banner.title" [imageBanner]="objectHtml.banner.image" [textImageAltBanner]="objectHtml.banner.text_image_alt" [showMenu]="false"></app-banner>
+<div class="container">
+	<mat-accordion>
+		<mat-expansion-panel *ngFor="let objectDataFaq of objectHtml.faqs">
+			<mat-expansion-panel-header [collapsedHeight]="'70px'" [expandedHeight]="'70px'">
+				<mat-panel-title>
+					<i class="icon-faq"></i>
+					<h2>{{objectDataFaq.title}}</h2>
+				</mat-panel-title>
+			</mat-expansion-panel-header>
+			<div [innerHtml]="objectDataFaq.summary"></div>
+		</mat-expansion-panel>
+	</mat-accordion>
+
+</div>

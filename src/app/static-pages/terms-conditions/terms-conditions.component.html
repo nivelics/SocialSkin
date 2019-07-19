@@ -1,0 +1,9 @@
+<app-banner [bg]="'yellow'" [showMenu]="true" [paramsTypeModuleIntegrate]="'terminosCondiciones'"></app-banner>
+
+<div class="container">
+	<h2 class="main-title">Condiciones de uso del sitio web</h2>
+	<div *ngFor="let objectHtmlTerms of objectHtml.terms">
+		<h3>{{objectHtmlTerms.title}}</h3>
+		<div [innerHtml]="objectHtmlTerms.summary"></div>
+	</div>
+</div>

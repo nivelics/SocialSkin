@@ -1,0 +1,91 @@
+@import "../../../../assets/scss/global/variables";
+@import "../../../../assets/scss/global/extends";
+
+.main-carousel{
+	background: url(../../../../assets/img/bkg-points2.png) repeat-y 0 center $thirdColor;
+	padding: 90px 0;
+	position: relative;
+	&:after{
+		content: "";
+		background: url(../../../../assets/img/asset01.png) no-repeat 0 0;
+		background-size: contain;
+		bottom: 20px;
+		display: block;
+		height: 343px;
+		opacity: .6;
+		position: absolute;
+		right: 0;
+		width: 300px;
+	}
+	.container{
+		position: relative;
+		z-index: 1;
+	}
+	.main-title{
+		color: $ui-04;
+		margin-top: 0;
+		&:after{
+			background: $ui-04;
+		}
+	}
+	.main-lead{
+		color: $ui-04;
+	}
+	.content{
+		margin: 0 14px;
+	}
+	.box-img{
+		position: relative;
+		img{
+			display: block;
+			height: auto;
+			width: 100%;
+		}
+		.icn-video{
+			@extend %verticalPos;
+			cursor: pointer;
+			left: 50%;
+			transform: translateY(-50%) translateX(-50%);
+		}
+	}
+	.box-text{
+		background: $ui-04;
+		padding: 20px;
+		.title{
+			color: $ui-05;
+			font-family: $secondFontBold;
+			font-size: 18px;
+			line-height: 20px;
+			margin: 0;
+			min-height: 40px;
+		}
+		p{
+			color: $ui-02;
+			font-family: $secondFontMedium;
+			font-size: 14px;
+			line-height: 20px;
+		}
+	}	
+}
+
+@media screen and (max-width: 1100px){
+	.main-carousel{
+		.container{
+			padding: 0 100px;
+		}
+	}
+}
+
+@media screen and (max-width: 767px){
+	.main-carousel{
+		padding: 40px 0;
+		.container{
+			padding: 0 45px;
+			position: relative;
+			z-index: 1;
+		}
+		.dots{
+			display: none;
+		}
+	}
+}

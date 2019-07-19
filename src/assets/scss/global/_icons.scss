@@ -1,0 +1,140 @@
+@import "mixins";
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: $iconFont !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angle:before {
+  content: "\e900";
+}
+.icon-faq:before {
+  content: "\e901";
+}
+.icon-twitter:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e903";
+}
+.icon-instagram:before {
+  content: "\e904";
+}
+.icon-liderazgo:before {
+  @include iconCat(url(assets/img/cat-liderazgo.svg) no-repeat 0 0, 30px,30px);
+  opacity: .6;
+}
+.icon-pz:before {
+  content: "\e905";
+  display: inline-block;
+  font-size: 30px;
+  height: 30px;
+  margin-right: 5px;
+  width: 30px;
+}
+.icon-salud:before {
+  content: "\e906";
+  display: inline-block;
+  font-size: 30px;
+  height: 30px;
+  margin-right: 5px;
+  width: 30px;
+}
+.icon-trabajo:before {
+  content: "\e907";
+  display: inline-block;
+  font-size: 30px;
+  height: 30px;
+  margin-right: 5px;
+  width: 30px;
+}
+.icon-educacion:before {
+  content: "\e908";
+  display: inline-block;
+  font-size: 30px;
+  height: 30px;
+  margin-right: 5px;
+  width: 30px;
+}
+.icon-ambiente:before {
+  content: "\e909";
+  display: inline-block;
+  font-size: 30px;
+  height: 30px;
+  margin-right: 5px;
+  width: 30px;
+}
+.icon-inclusion:before {
+  content: "\e90a";
+  display: inline-block;
+  font-size: 30px;
+  height: 30px;
+  margin-right: 5px;
+  width: 30px;
+}
+.icon-ciudades:before {
+  content: "\e90b";
+  display: inline-block;
+  font-size: 30px;
+  height: 30px;
+  margin-right: 5px;
+  width: 30px;
+}
+.icon-comment:before {
+  content: "\e90c";
+}
+.icon-heart:before {
+  content: "\e90d";
+}
+.icon-angle02:before {
+  content: "\e90e";
+}
+.icon-angle01:before {
+  content: "\e90f";
+}
+.icon-menu:before {
+  content: "\e910";
+}
+.icon-download:before {
+  content: "\e911";
+}
+.icon-arrow-next:before {
+  content: "\e912";
+}
+.icon-arrow-next1:before {
+  content: "\e913";
+}
+.icon-clear-button:before {
+  content: "\e914";
+}
+.icon-quote:before {
+  content: "\e915";
+}
+.icon-share:before {
+  content: "\e916";
+}
+.icon-link:before {
+  content: "\e917";
+}
+.icon-full-heart:before {
+  content: "\e918";
+}
+.icon-winner:before {
+  content: "\e919";
+}
+.icon-all:before {
+  content: "\e91a";
+}
+.icn-video{
+   @include iconCat(url(assets/img/video-btn.svg) no-repeat 0 0, 65px,65px);
+}

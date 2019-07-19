@@ -1,0 +1,109 @@
+@import "../../../../assets/scss/global/variables";
+@import "../../../../assets/scss/global/extends";
+
+.list-block{
+	.item{
+		display: flex;
+		margin-bottom: 30px;
+		padding: 10px;
+		padding-bottom: 0;
+		.box-img{
+			margin-right: 32px;
+			img{
+				border-radius: 5px;
+			}
+		}
+		.info{
+			position: relative;
+			.icon-winner{
+				color: $second-color;
+				margin-right: 8px;
+			}
+			.title{
+				color: $fiveColor;
+				font-family: $mainFontBold;
+				font-size: 20px;
+				line-height: 28px;
+				margin: 0 0 10px;
+				a{
+					color: $fiveColor;
+					text-decoration: none;
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+			.desc{
+				color: $ui-02;
+				font-family: $secondFontMedium;
+				font-size: 16px;
+				line-height: 24px;
+				margin: 0;
+			}
+			app-interactions{
+				bottom: 0;
+				left: 0;
+				position: absolute;
+			}
+		}
+		&.winner{
+			background: rgba(236,187,63,0.05);
+			border: 1px solid $second-color;
+			border-radius: 4px;
+		}
+	}
+}
+
+@media screen and (max-width: 960px){
+	.list-block{
+		.item{
+			.box-img{
+				margin-right: 15px;
+				img{
+					height: auto;
+					width: 100%;
+				}
+			}
+			.info{
+				.desc{
+					margin-bottom: 15px;
+				}
+				app-interactions{
+					position: static;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px){
+	.list-block{
+		.item{
+			border-bottom: 1px solid $ui-08;
+			flex-direction: column;
+			margin: 0 0 20px;
+    		padding: 0 0 20px;
+    		&.winner{
+    			.info{
+    				padding: 0 10px;
+    			}
+    		}
+			.box-img{
+				margin: 0;
+			}
+			.info{
+				.title{
+					font-size: 16px;
+				}
+				.desc{
+					font-size: 14px;
+					line-height: 21px;
+				}
+				app-interactions{
+					display: flex;
+					justify-content: space-between;
+				}
+			}
+		}
+	}
+}

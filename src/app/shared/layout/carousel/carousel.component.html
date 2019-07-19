@@ -1,0 +1,25 @@
+<div class="main-carousel">
+	<h2 class="main-title">{{objectHtml.novelties.section.title}}</h2>
+	<p class="main-lead" *ngIf="video">Felicitaciones a nuestros 7 proyectos ganadores. Conoce de qué se trata cada uno</p>
+	<div class="container">
+		<ngx-slick-carousel class="carousel" [config]="slideConfig">
+			<div ngxSlickItem class="slide" *ngFor="let objectCard of objectHtml.novelties.data">
+				<div class="content">
+					<div class="box-img">
+						<picture class="box-img">
+							<source type="image/webp" srcset="">
+							<source type="image/jp2" srcset="">
+							<source type="image/jxr" srcset="">
+							<img [src]="objectCard.image" alt="Image" class="img-contain">
+						</picture>
+						<i class="icn-video" *ngIf="video" (click)="openDialog()"></i>
+					</div>
+					<div class="box-text">
+						<h3 class="title">{{objectCard.title}}</h3>
+						<div [innerHtml]="objectCard.summary"></div>
+					</div>
+				</div>
+			</div>
+		</ngx-slick-carousel>
+	</div>
+</div>

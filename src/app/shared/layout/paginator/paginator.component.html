@@ -1,0 +1,6 @@
+<div *ngFor="let meal of meals | paginate: { itemsPerPage: 4, currentPage: page }">
+    <div [innerHtml]="meal.html"></div>
+</div>
+<div class="text-center">
+    <pagination-controls (pageChange)="page = $event" previousLabel="" nextLabel="" responsive="true"></pagination-controls>
+</div>

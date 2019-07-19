@@ -1,0 +1,72 @@
+pagination-controls{
+	.ngx-pagination{
+		color: $ui-02;
+		font-family: $mainFontBold;
+		font-size: 14px;
+		margin: 48px 0 52px;
+		padding: 0;
+		a{
+			border-radius: 100%;
+			color: $ui-02;
+		}
+		a,
+		button{
+			padding: 1px 6px;
+			&:hover{
+				background: #E3E3E3;
+			}
+			&:focus{
+				outline: none;
+			}
+		}
+		li{
+			margin: 0 12px;
+		}
+		.current{
+			background: #E3E3E3;
+			border-radius: 100%;
+			color: $ui-02;
+			padding: 1px 6px;
+		}
+		.pagination-previous{
+			&.disabled{
+				&:before{
+					content: "\e90e";
+					color: $ui-02;
+					font-family: $iconFont;
+					font-size: 13px;
+					margin: 0;
+				}
+			}
+			a{
+				&:before{
+					content: "\e90e";
+					color: $ui-02;
+					font-family: $iconFont;
+					font-size: 13px;
+					margin: 0;
+				}
+			}
+		}
+		.pagination-next{
+			&.disabled{
+				&:after{
+					content: "\e90f";
+					color: $ui-02;
+					font-family: $iconFont;
+					font-size: 13px;
+					margin: 0;
+				}
+			}
+			a{
+				&:after{
+					content: "\e90f";
+					color: $ui-02;
+					font-family: $iconFont;
+					font-size: 13px;
+					margin: 0;
+				}
+			}
+		}
+	}
+}

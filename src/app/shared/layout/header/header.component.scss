@@ -1,0 +1,299 @@
+@import "../../../../assets/scss/global/variables";
+@import "../../../../assets/scss/global/extends";
+
+header{	
+    left: 0;
+	padding: 20px 0;
+	position: fixed;
+	transition: background .8s;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+	.container{
+		max-width: 1084px;
+	}
+	.logo{
+		@extend %alignVertical;
+		background: url("../../../../assets/img/logo.svg") no-repeat 0 0;
+		background-size: cover;
+		height: 60px;
+		text-indent: -9999px;
+		width: 168px;
+	}
+	.menu{
+		font-family: $mainFontlight;
+		font-size: 14px;
+		text-align: right;
+		width: 82%;
+		@extend %alignVertical;
+		.logo,
+		.icon-clear-button{
+			display: none;
+		}
+		ul{
+			padding: 0;
+			@extend %alignVertical;
+			li{
+				border-bottom: 3px solid transparent;
+				display: inline-block;
+				list-style: none;
+				margin: 0 20px;
+    			padding: 4px 7px;
+				a{
+					color: $ui-04;
+					text-decoration: none;
+				}
+				&.active,
+				&:hover{
+					border-color: $ui-04;
+					a{
+						color: $ui-04;
+					}
+				}
+			}
+		}
+		.dropdown{
+			@extend %alignVertical;
+			margin-left: 20px;
+			position: relative;
+			span{
+				border: 1px solid $ui-04;
+				border-radius: 4px;
+				color: $ui-04;
+				cursor: pointer;
+				display: block;
+				font-family: $mainFontlight;
+				font-size: 14px;
+				min-width: 83px;
+    			text-align: center;
+				padding: 12px;
+				i{
+					display: inline-block;
+					transition: transform .8s;
+					vertical-align: middle;
+				}
+				&.open{
+					i{
+						transform: rotate(180deg);
+						transition: transform .8s;
+					}
+				}
+			}
+			ul{
+				background: $ui-04;
+				box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+    			border-radius: 5px;
+				display: none;
+				left: 10px;
+				min-width: 183px;
+				text-align: left;
+				top: 40px;
+				position: absolute;
+				&.open{
+					display: block;
+				}
+				&:before{
+					content: "";
+					border-left: 5px solid transparent;
+					border-right: 5px solid transparent;
+					border-bottom: 5px solid $ui-04;
+					display: block;
+					height: 0;
+					left: 10px;
+					position: absolute;
+					top: -5px;
+					width: 0;
+				}
+				li{
+					border-bottom: 2px solid $ui-03;
+					display: block;
+					margin: 0;
+					padding: 10px;
+					&:last-child{
+						border-bottom: 0;
+					}
+					a{
+						color: $ui-01;
+					}
+					&.active{
+						a{
+							font-family: $mainFontBold;
+						}
+					}
+				}
+			}
+		}
+	}
+	&.detail,
+	&.bg{
+		background: $ui-04;
+		box-shadow: 0px 1px 10px -7px rgba(0, 0, 0, 0.3);
+		transition: background .8s;
+		.logo{
+			background: url("../../../../assets/img/logo-color.svg") no-repeat 0 0;
+			background-size: cover;
+		}
+		.menu{
+			ul{
+				li{
+					a{
+						color: $ui-01;
+					}
+					&.active,
+					&:hover{
+						border-color: $primaryColor;
+						a{
+							color: $primaryColor;
+						}
+					}
+				}
+			}
+			.dropdown{
+				span{
+					border: 1px solid $ui-03;
+					color: $ui-01;
+				}
+			}		
+		}
+	}
+}
+.btn-menu{
+	background: none;
+	border: 1px solid $primaryColor;
+	border-radius: 5px;
+	color: $primaryColor;
+	display: none;
+	font-family: $mainFontlight;
+	font-size: 18px;
+	padding: 5px 10px;
+	&:focus{
+		outline: none;
+	}
+	i{
+		display: inline-block;
+		font-size: 12px;
+	    margin-right: 7px;
+	    vertical-align: -1px;
+	}
+}
+
+@media screen and (max-width: 1100px){
+	header{
+		padding: 18px 20px;
+		width: calc(100% - 40px);
+	}
+}
+@media screen and (max-width: 960px){
+	.btn-menu{
+		display: inline-block;
+		float: right;
+		font-size: 14px;
+    	margin-top: 18px;
+	}
+	header{
+		background: $ui-04;
+		box-shadow: 0px 1px 10px -7px rgba(0, 0, 0, 0.3);
+		.logo{
+			height: 45px;
+			width: 126px;
+		}
+		.menu{
+			background: $ui-04;
+			height: 100%;
+			left: 100%;
+			overflow-y: auto;
+			position: fixed;
+			text-align: center;
+			top: 0;
+			transition: left .8s;
+			width: 100%;
+			&.open{
+				left: 0;
+				transition: left .8s;
+			}
+			.logo{
+				display: block;
+				height: 45px;
+				margin: 30px auto;
+				width: 126px;
+			}
+			ul{
+				display: block;
+				margin: 0;
+				width: 100%;
+				li{
+					display: block;
+					font-size: 18px;
+					line-height: 21px;
+					margin-bottom: 35px;
+					a{
+						color: $ui-01;
+					}
+					&:hover,
+					&.active{
+						border: 0;
+						a{
+							color: #DE6B2C;
+						}
+					}
+				}
+			}
+			.dropdown{
+				border-radius: 0;
+				border-top: 1px solid $ui-03;
+				display: block;
+				margin: 0 30px;
+				padding: 35px 0;
+				span{
+					display: none;
+				}
+				ul{
+					box-shadow: none;
+					display: block;
+					margin: 0;
+					position: static;
+					text-align: center;
+					&:before{
+						display: none;
+					}
+					li{
+						border: 0;
+						margin-bottom: 35px;
+						padding: 0;
+					}
+				}
+			}
+			.icon-clear-button{
+				border: 1px solid #DE6B2C;
+				border-radius: 3px;
+				color: #DE6B2C;
+				display: block;
+				height: 26px;
+				line-height: 26px;
+				margin: 0 auto 30px;
+				text-align: center;
+				width: 26px;
+			}
+		}
+		.logo{
+			background: url("../../../../assets/img/logo-color.svg") no-repeat 0 0;
+			background-size: cover;
+		}
+	}
+}
+
+@media screen and (max-width: 767px){
+	header{
+		padding: 13px 0;
+		width: 100%;
+		.logo{
+			img{
+				height: auto;
+				width: 130px;
+			}
+		}
+	}
+	.btn-menu{
+		margin-top: 8px;
+	}
+}

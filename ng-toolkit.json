@@ -1,0 +1,8 @@
+{
+  "universal": {
+    "project": "sk",
+    "skipInstall": false,
+    "directory": ".",
+    "http": true
+  }
+}

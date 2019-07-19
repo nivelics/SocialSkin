@@ -1,0 +1,42 @@
+<header id="header" (scroll)="onWindowScroll($event);" class="{{this.hasBg ? 'detail' : ''}}">
+	<div class="container">
+		<a class="logo" href="#">Social Skin</a>
+
+		<button class="btn-menu" (click)="menuMobile()">
+			<i class="icon-menu"></i>Menú</button>
+
+		<div class="menu {{open ? 'open' : ''}}">
+			<a class="logo" href="#">Social Skin</a>
+			<ul *ngIf="menu">
+				<li routerLinkActive="active" (click)="menuMobile()">
+					<a>Home</a>
+				</li>
+				<li routerLinkActive="active" (click)="menuMobile()">
+					<a [routerLink]="[parmsModuleSlug + '/que-es']">Qué es</a>
+				</li>
+				<li routerLinkActive="active" (click)="menuMobile()">
+					<a [routerLink]="[parmsModuleSlug + '/categoria']">Categorías</a>
+				</li>
+				<li routerLinkActive="active" (click)="menuMobile()" *ngIf="this.objectHtml.showFinalist">
+					<a [routerLink]="[parmsModuleSlug + '/finalistas']">Finalistas</a>
+				</li>
+				<li routerLinkActive="active" (click)="menuMobile()">
+					<a [routerLink]="[parmsModuleSlug + '/faq']">FAQ</a>
+				</li>
+			</ul>
+
+			<div class="dropdown">
+				<span (click)="clickEvent()" [ngClass]="status ? 'open' : ''">Selecciona concurso
+					<i class="icon-angle"></i>
+				</span>
+				<ul [ngClass]="status ? 'open' : ''">
+					<li routerLinkActive="active" *ngFor="let objectNavigation of objectNavigationUrl" (click)="clickEvent()">
+						<a [routerLink]="['/' + objectNavigation.slug]">{{objectNavigation.name}}</a>
+					</li>
+				</ul>
+			</div>
+
+			<i class="icon-clear-button" (click)="menuMobile()"></i>
+		</div>
+	</div>
+</header>

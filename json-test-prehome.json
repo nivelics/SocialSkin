@@ -1,0 +1,903 @@
+{
+    "prehome": {
+        "status": "ok",
+        "code": 200,
+        "messages": [],
+        "result": {
+            "navigations": [
+                {
+                    "slug": "el-premio-colombia",
+                    "name": "Premio Colombia"
+                },
+                {
+                    "slug": "el-premio-centroamerica",
+                    "name": "Premio Centro América"
+                }
+            ],
+            "banner": {
+                "title": "Esto es un titulo de prueba home",
+                "summary": "<p>Caso de prueba del home</p>",
+                "image": "../../../../assets/img/banner-prehome.jpg",
+                "imageMobile": "http://socialskin.test/storage/esIVlxmia8lLQucJj77m3jDNQxaaG8felZf3YBF3.jpeg"
+            },
+            "contest_currents": {
+                "section": {
+                    "title": "Premios vigentes"
+                },
+                "data": [
+                    {
+                        "name": "Premio centroamerica",
+                        "slug": "centroamerica",
+                        "image": "../../../../assets/img/centroamerica.png"
+                    }
+                ]
+            },
+            "contest_previous": {
+                "section": {
+                    "title": "Ganadores anteriores"
+                },
+                "data": [
+                    {
+                        "name": "Premio colombia",
+                        "slug": "colombia",
+                        "image": "../../../../assets/img/colombia.png"
+                    }
+                ]
+            },
+            "categories": {
+                "section": {
+                    "title": "categorias",
+                    "summary": "esto es una prueba del modulo de categorias no debe llevar nada de html"
+                },
+                "data": [
+                    {
+                        "name": "Caso de evidencia 1",
+                        "image": "../../../../assets/img/cat01.jpg",
+                        "summary": "modulo de ejemplo"
+                    },
+                    {
+                        "name": "Caso de evidencia 2",
+                        "image": "../../../../assets/img/cat02.jpg",
+                        "summary": "modulo de ejemplo dos"
+                    },
+                    {
+                        "name": "Caso de evidencia 3",
+                        "image": "../../../../assets/img/cat03.jpg",
+                        "summary": "modulo de ejemplo tres"
+                    },
+                    {
+                        "name": "Caso de evidencia 4",
+                        "image": "../../../../assets/img/cat04.jpg",
+                        "summary": "modulo de ejemplo cuatro"
+                    },
+                    {
+                        "name": "Caso de evidencia 5",
+                        "image": "../../../../assets/img/cat05.jpg",
+                        "summary": "modulo de ejemplo cinco"
+                    },
+                    {
+                        "name": "Caso de evidencia 6",
+                        "image": "../../../../assets/img/cat06.jpg",
+                        "summary": "modulo de ejemplo seis"
+                    },
+                    {
+                        "name": "Caso de evidencia 7",
+                        "image": "../../../../assets/img/cat07.jpg",
+                        "summary": "modulo de ejemplo siete"
+                    }
+                ]
+            },
+            "novelties": {
+                "section": {
+                    "title": "Novedades de prueba"
+                },
+                "data": [
+                    {
+                        "title": "Hola esto es una prueba del servicio",
+                        "summary": "es una prueba del modulo dinamico",
+                        "image": "https://quintacoquimbo.cl/wp-content/uploads/2017/10/imagen-de-prueba-320x240.jpg"
+                    },
+                    {
+                        "title": "Hola esto es una prueba del servicio dos",
+                        "summary": "es una prueba del modulo dinamico dos",
+                        "image": "https://quintacoquimbo.cl/wp-content/uploads/2017/10/imagen-de-prueba-320x240.jpg"
+                    },
+                    {
+                        "title": "Hola esto es una prueba del servicio tres",
+                        "summary": "es una prueba del modulo dinamico tres",
+                        "image": "https://quintacoquimbo.cl/wp-content/uploads/2017/10/imagen-de-prueba-320x240.jpg"
+                    },
+                    {
+                        "title": "Hola esto es una prueba del servicio cuatro",
+                        "summary": "es una prueba del modulo dinamico cuatro",
+                        "image": "https://quintacoquimbo.cl/wp-content/uploads/2017/10/imagen-de-prueba-320x240.jpg"
+                    }
+                ]
+            }
+        }
+    },
+    "el-premio-colombia": {
+        "status": "ok",
+        "code": 200,
+        "messages": [],
+        "result": {
+            "showFinalist": true,
+            "showWinner": false,
+            "color": "blue",
+            "navigations": [
+                {
+                    "slug": "Premios-test",
+                    "name": "test"
+                },
+                {
+                    "slug": "concurso-es",
+                    "name": "test"
+                }
+            ],
+            "banner": {
+                "title": "Este es una prueba del banner colombia",
+                "summary": "Contenido del banner colombia",
+                "buttonText": "Ver mas contenido",
+                "buttonAction": "ruta estatica",
+                "image": "../../../../assets/img/preguntas.webp",
+                "imageMobile": "../../../../assets/img/preguntas.webp"
+            },
+            "categories": {
+                "section": {
+                    "title": "Esto es una prueba de categorias centro america",
+                    "summary": "texto de prueba de categorias centro america"
+                },
+                "data": [
+                    {
+                        "name": "categorias centro america",
+                        "summary": "texto categorias",
+                        "image": "../../../../assets/img/cat05.jpg"
+                    },
+                    {
+                        "name": "prueba de otra categoria",
+                        "summary": "prueba de texto categoria",
+                        "image": "../../../../assets/img/cat05.jpg"
+                    }
+                ]
+            },
+            "allies": {
+                "section": {
+                    "title": "Nuestros aliados"
+                },
+                "data": [
+                    {
+                        "name": "Impulsa",
+                        "image": "../../../../assets/img/innpulsaColombia.png",
+                        "link": "https://innpulsacolombia.com/"
+                    },
+                    {
+                        "name": "Externado",
+                        "image": "../../../../assets/img/externado.jpg",
+                        "link": "https://www.uexternado.edu.co/"
+                    },
+                    {
+                        "name": "Andes universidad",
+                        "image": "../../../../assets/img/andes.jpg",
+                        "link": "https://uniandes.edu.co/"
+                    },
+                    {
+                        "name": "Rosario universidad",
+                        "image": "../../../../assets/img/rosario.png",
+                        "link": "https://www.urosario.edu.co/"
+                    },
+                    {
+                        "name": "Naciones unidas",
+                        "image": "../../../../assets/img/naciones-unidas.png",
+                        "link": "https://www.un.org/es/"
+                    }
+                ]
+            },
+            "novelties": {
+                "section": {
+                    "title": "Novedades de prueba"
+                },
+                "data": [
+                    {
+                        "title": "Hola esto es una prueba del servicio",
+                        "summary": "es una prueba del modulo dinamico",
+                        "image": "https://quintacoquimbo.cl/wp-content/uploads/2017/10/imagen-de-prueba-320x240.jpg"
+                    },
+                    {
+                        "title": "Hola esto es una prueba del servicio dos",
+                        "summary": "es una prueba del modulo dinamico dos",
+                        "image": "https://quintacoquimbo.cl/wp-content/uploads/2017/10/imagen-de-prueba-320x240.jpg"
+                    },
+                    {
+                        "title": "Hola esto es una prueba del servicio tres",
+                        "summary": "es una prueba del modulo dinamico tres",
+                        "image": "https://quintacoquimbo.cl/wp-content/uploads/2017/10/imagen-de-prueba-320x240.jpg"
+                    },
+                    {
+                        "title": "Hola esto es una prueba del servicio cuatro",
+                        "summary": "es una prueba del modulo dinamico cuatro",
+                        "image": "https://quintacoquimbo.cl/wp-content/uploads/2017/10/imagen-de-prueba-320x240.jpg"
+                    }
+                ]
+            }
+        }
+    },
+    "el-premio-centroamerica": {
+        "status": "ok",
+        "code": 200,
+        "messages": [],
+        "result": {
+            "showFinalist": false,
+            "showWinner": false,
+            "color": "green",
+            "navigations": [
+                {
+                    "slug": "Premios-test",
+                    "name": "test"
+                },
+                {
+                    "slug": "concurso-es",
+                    "name": "test"
+                }
+            ],
+            "banner": {
+                "title": "Este es una prueba del banner centro america",
+                "summary": "Contenido del banner centro america",
+                "buttonText": "Ver mas contenido",
+                "buttonAction": "ruta estatica",
+                "image": "../../../../assets/img/preguntas.webp",
+                "imageMobile": "../../../../assets/img/preguntas.webp"
+            },
+            "categories": {
+                "section": {
+                    "title": "Esto es una prueba de categorias centro america",
+                    "summary": "texto de prueba de categorias centro america"
+                },
+                "data": [
+                    {
+                        "name": "categorias centro america",
+                        "summary": "texto categorias",
+                        "image": "../../../../assets/img/cat05.jpg"
+                    },
+                    {
+                        "name": "prueba de otra categoria",
+                        "summary": "prueba de texto categoria",
+                        "image": "../../../../assets/img/cat05.jpg"
+                    }
+                ]
+            },
+            "allies": {
+                "section": {
+                    "title": "Nuestros aliados"
+                },
+                "data": [
+                    {
+                        "name": "Impulsa",
+                        "image": "../../../../assets/img/innpulsaColombia.png",
+                        "link": "https://innpulsacolombia.com/"
+                    },
+                    {
+                        "name": "Externado",
+                        "image": "../../../../assets/img/externado.jpg",
+                        "link": "https://www.uexternado.edu.co/"
+                    },
+                    {
+                        "name": "Andes universidad",
+                        "image": "../../../../assets/img/andes.jpg",
+                        "link": "https://uniandes.edu.co/"
+                    },
+                    {
+                        "name": "Rosario universidad",
+                        "image": "../../../../assets/img/rosario.png",
+                        "link": "https://www.urosario.edu.co/"
+                    },
+                    {
+                        "name": "Naciones unidas",
+                        "image": "../../../../assets/img/naciones-unidas.png",
+                        "link": "https://www.un.org/es/"
+                    }
+                ]
+            },
+            "novelties": {
+                "section": {
+                    "title": "Novedades de prueba"
+                },
+                "data": [
+                    {
+                        "title": "Hola esto es una prueba del servicio",
+                        "summary": "es una prueba del modulo dinamico",
+                        "image": "https://quintacoquimbo.cl/wp-content/uploads/2017/10/imagen-de-prueba-320x240.jpg"
+                    },
+                    {
+                        "title": "Hola esto es una prueba del servicio dos",
+                        "summary": "es una prueba del modulo dinamico dos",
+                        "image": "https://quintacoquimbo.cl/wp-content/uploads/2017/10/imagen-de-prueba-320x240.jpg"
+                    },
+                    {
+                        "title": "Hola esto es una prueba del servicio tres",
+                        "summary": "es una prueba del modulo dinamico tres",
+                        "image": "https://quintacoquimbo.cl/wp-content/uploads/2017/10/imagen-de-prueba-320x240.jpg"
+                    },
+                    {
+                        "title": "Hola esto es una prueba del servicio cuatro",
+                        "summary": "es una prueba del modulo dinamico cuatro",
+                        "image": "https://quintacoquimbo.cl/wp-content/uploads/2017/10/imagen-de-prueba-320x240.jpg"
+                    }
+                ]
+            }
+        }
+    },
+    "el-premio-colombia-que-es": {
+        "status": "ok",
+        "code": 200,
+        "messages": [],
+        "result": {
+            "showFinalist": false,
+            "showWinner": false,
+            "navigations": [
+                {
+                    "slug": "que_es_colombia",
+                    "name": "que_es_colombia"
+                },
+                {
+                    "slug": "concurso-es",
+                    "name": "concurso es"
+                }
+            ],
+            "banner": {
+                "title": "Que es colombia dinamico ?",
+                "summary": "texto del banner de prueba colombia",
+                "phrase": "va texto de informacion colombia",
+                "slogan": "que es colombia",
+                "image": "../../../../assets/img/about.png",
+                "imageMobile": "../../../../assets/img/about.png"
+            },
+            "activities": {
+                "section": {
+                    "title": "calendario"
+                },
+                "data": [
+                    {
+                        "title": "Inscripcion de logos",
+                        "start": "2019-07-10",
+                        "final": "2019-07-12",
+                        "image": "../../../../assets/img/calendar01.png"
+                    },
+                    {
+                        "title": "Evaluacion de logos",
+                        "start": "2019-07-22",
+                        "final": "",
+                        "image": "../../../../assets/img/calendar02.png"
+                    },
+                    {
+                        "title": "Anuncios de finalistas",
+                        "start": "2019-07-22",
+                        "final": "",
+                        "image": "../../../../assets/img/calendar03.png"
+                    },
+                    {
+                        "title": "Anuncios de finalistas",
+                        "start": "2019-07-30",
+                        "final": "",
+                        "image": "../../../../assets/img/calendar03.png"
+                    }
+                ]
+            },
+            "adwards": {
+                "section": {
+                    "title": "Premios",
+                    "phrase": "Modulo de premios en eres colombia:"
+                },
+                "data": [
+                    {
+                        "title": "Dinero para tu proyecto",
+                        "summary": "<strong>$40.000.000</strong> para el fortalecimiento de cada proyecto, los cuales se entregarán durante el programa de mentoría.</p>",
+                        "image": "../../../../assets/img/premio01.svg"
+                    },
+                    {
+                        "title": "Dinero de libre inversión",
+                        "summary": "<strong>$17.000.000</strong> de libre inversión para cada proyecto.</p>",
+                        "image": "../../../../assets/img/premio02.svg"
+                    },
+                    {
+                        "title": "Acompañamiento y mentoría",
+                        "summary": "con el programa, Emprende País, de la <strong>Fundación Bolívar Davivienda</strong>, la cual fortalece empresas a través de la capacitación y el acompañamiento.",
+                        "image": "../../../../assets/img/premio03.svg"
+                    },
+                    {
+                        "title": "Gastos de viaje y alojamiento",
+                        "summary": "para la sustentación del proyecto, para un representante de algún proyecto finalista que no sea de la ciudad de Bogotá.",
+                        "image": "../../../../assets/img/premio04.svg"
+                    },
+                    {
+                        "title": "Jornada de preparación para la sustentación",
+                        "summary": "basada en Storytelling, Elevator Pitch y Workshops de escalabilidad global y propiedad intelectual.",
+                        "image": "../../../../assets/img/premio05.svg"
+                    },
+                    {
+                        "title": "Visibilidad y reconocimiento",
+                        "summary": "en todo el país, co- working con el ecosistema de innovación a través de los diferentes medios y redes de la comunidad Social Skin.",
+                        "image": "../../../../assets/img/premio06.svg"
+                    }
+                ]
+            },
+            "requirements": {
+                "section": {
+                    "title": "requisitos"
+                },
+                "data": [
+                    {
+                        "summary": "<strong>Ser estudiante activo</strong> de Pregrado, Especialización o Maestría de una institución de Educación superior en Colombia, reconocida por el Ministerio de Educación Nacional con registro calificado activo."
+                    },
+                    {
+                        "summary": "Tener un proyecto que esté contribuyendo a la solución de alguna problemática social en el marco de los Objetivos de Desarrollo Sostenible el cual haya estado o esté activo dentro de los últimos dos años."
+                    },
+                    {
+                        "summary": "Subir un video a YouTube de máximo 60 segundos contando creativamente el proyecto y el impacto que tiene para la sociedad."
+                    },
+                    {
+                        "summary": "Si algún participante es menor de edad debe tener los siguientes documentos: - Fotocopia de tu tarjeta de identidad - Fotocopia de tu registro civil de nacimiento - Fotocopia de la cédula de tu representante legal - Autorización firmada y autenticada por tu representante legal"
+                    }
+                ]
+            },
+            "judges": {
+                "section": {
+                    "title": "Jueces"
+                },
+                "data": [
+                    {
+                        "name": "Carolina Carrasco",
+                        "summary": "Especialista Senior BID Lab, laboratorio de innovación del Grupo BID.",
+                        "image": "../../../../assets/img/jurado02.png"
+                    },
+                    {
+                        "name": "Johana Bahamón",
+                        "summary": "Fundadora y Directora Ejecutiva de Fundación Acción Interna",
+                        "image": "../../../../assets/img/jurado03.png"
+                    },
+                    {
+                        "name": "Simón Borrero",
+                        "summary": "Fundador de Rappi",
+                        "image": "../../../../assets/img/jurado05.png"
+                    },
+                    {
+                        "name": "Simón Borrero",
+                        "summary": "Fundador de Rappi",
+                        "image": "../../../../assets/img/jurado05.png"
+                    },
+                    {
+                        "name": "Simón Borrero",
+                        "summary": "Fundador de Rappi",
+                        "image": "../../../../assets/img/jurado05.png"
+                    },
+                    {
+                        "name": "Simón Borrero",
+                        "summary": "Fundador de Rappi",
+                        "image": "../../../../assets/img/jurado05.png"
+                    }
+                ]
+            }
+        }
+    },
+    "el-premio-centroamerica-que-es": {
+        "status": "ok",
+        "code": 200,
+        "messages": [],
+        "result": {
+            "showFinalist": false,
+            "showWinner": false,
+            "navigations": [
+                {
+                    "slug": "aaaaaaaaaaaaaaaaaa",
+                    "name": "aaaaaaaaaaaaaaaaaa"
+                },
+                {
+                    "slug": "concurso-es",
+                    "name": "concurso es"
+                }
+            ],
+            "banner": {
+                "title": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "summary": "<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>",
+                "phrase": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "slogan": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "image": "http://socialskin.test/storage/VACVKgXcX48EvnyOitRfqPdoM1tAgKdmYNoBX2ya.jpeg",
+                "imageMobile": "http://socialskin.test/storage/UYOIYBaafH3OMF5dR4GkKSXX3p92LKgRChFtPUxJ.jpeg"
+            },
+            "activities": {
+                "section": {
+                    "title": "calendario"
+                },
+                "data": [
+                    {
+                        "title": "aaaaaaaaaaaaaaaaaaaaa",
+                        "start": "2019-07-10",
+                        "final": "2019-07-12",
+                        "image": "http://socialskin.test/storage/4Uf1UYowafKeRHGd5ecLOb49rmX8RR4MfyTTF2FG.jpeg"
+                    },
+                    {
+                        "title": "eeeeeeeeeeeeeeeeeeeeee",
+                        "start": "2019-07-22",
+                        "final": "",
+                        "image": "http://socialskin.test/storage/f7Bbtlqb1zitLscN1Cl4savcGqDGphLbnj4lhdXU.jpeg"
+                    }
+                ]
+            },
+            "adwards": {
+                "section": {
+                    "title": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                    "phrase": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                },
+                "data": [
+                    {
+                        "title": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                        "summary": "<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>",
+                        "image": "http://socialskin.test/storage/yr5ZdhILo8budODdnLrUanDgmBsvU3cR1gUrkFV1.jpeg"
+                    }
+                ]
+            },
+            "requirements": {
+                "section": {
+                    "title": "requisitos"
+                },
+                "data": [
+                    {
+                        "summary": "<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>"
+                    },
+                    {
+                        "summary": "<p>ggggggggggggggggggggggggggggggggggggggggggggg</p>"
+                    }
+                ]
+            },
+            "judges": {
+                "section": {
+                    "title": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+                },
+                "data": [
+                    {
+                        "name": "Jurado2",
+                        "summary": "<p>rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr</p>",
+                        "image": "http://socialskin.test/storage/DqC6IgnkPcCgNdN2efS2DghofAqSzwCyYDG1xjGh.jpeg"
+                    }
+                ]
+            }
+        }
+    },
+    "el-premio-colombiaFaqColombia": {
+        "status": "ok",
+        "code": 200,
+        "messages": [],
+        "result": {
+            "showFinalist": false,
+            "showWinner": false,
+            "navigations": [
+                {
+                    "slug": "social-skin-colombia",
+                    "name": "social skin colombia"
+                }
+            ],
+            "banner": {
+                "title": "Preguntas frecuentes",
+                "image": "../../../../assets/img/preguntas.webp",
+                "text_image_alt": ""
+            },
+            "faqs": [
+                {
+                    "title": "¿Quién puede participar en Social Skin?",
+                    "summary": "<p>Puede participar cualquier Universitario activo siempre y cuando cumpla los siguientes requisitos:</p><ol><li>Ser estudiante activo de pregrado, especialización o maestría de una Institución de Educación Superior reconocida por el Ministerio de Educación Nacional con registro calificado activo.</li><li>Contar con un proyecto de innovación social que esté o haya estado activo dentro de los últimos 2 años.</li><li>Diligenciar completamente el formulario de inscripción dentro de las fechas dispuestas para ello.</li><li>Elegir uno de las 7 categorías definidas por el Premio Social Skin.</li></ol>"
+                },
+                {
+                    "title": "¿Cómo inscribo mi proyecto?",
+                    "summary": "<p>Puede participar cualquier Universitario activo siempre y cuando cumpla los siguientes requisitos:</p><ol><li>Ser estudiante activo de pregrado, especialización o maestría de una Institución de Educación Superior reconocida por el Ministerio de Educación Nacional con registro calificado activo.</li><li>Contar con un proyecto de innovación social que esté o haya estado activo dentro de los últimos 2 años.</li><li>Diligenciar completamente el formulario de inscripción dentro de las fechas dispuestas para ello.</li><li>Elegir uno de las 7 categorías definidas por el Premio Social Skin.</li></ol>"
+                },
+                {
+                    "title": "¿Puedo inscribir un proyecto grupalmente?",
+                    "summary": "<p>Puede participar cualquier Universitario activo siempre y cuando cumpla los siguientes requisitos:</p><ol><li>Ser estudiante activo de pregrado, especialización o maestría de una Institución de Educación Superior reconocida por el Ministerio de Educación Nacional con registro calificado activo.</li><li>Contar con un proyecto de innovación social que esté o haya estado activo dentro de los últimos 2 años.</li><li>Diligenciar completamente el formulario de inscripción dentro de las fechas dispuestas para ello.</li><li>Elegir uno de las 7 categorías definidas por el Premio Social Skin.</li></ol>"
+                },
+                {
+                    "title": "¿Cómo van a evaluar mi proyecto?",
+                    "summary": "<p>Puede participar cualquier Universitario activo siempre y cuando cumpla los siguientes requisitos:</p><ol><li>Ser estudiante activo de pregrado, especialización o maestría de una Institución de Educación Superior reconocida por el Ministerio de Educación Nacional con registro calificado activo.</li><li>Contar con un proyecto de innovación social que esté o haya estado activo dentro de los últimos 2 años.</li><li>Diligenciar completamente el formulario de inscripción dentro de las fechas dispuestas para ello.</li><li>Elegir uno de las 7 categorías definidas por el Premio Social Skin.</li></ol>"
+                },
+                {
+                    "title": "¿Hay algún límite de edad para participar en el Premio Social Skin?",
+                    "summary": "<p>Puede participar cualquier Universitario activo siempre y cuando cumpla los siguientes requisitos:</p><ol><li>Ser estudiante activo de pregrado, especialización o maestría de una Institución de Educación Superior reconocida por el Ministerio de Educación Nacional con registro calificado activo.</li><li>Contar con un proyecto de innovación social que esté o haya estado activo dentro de los últimos 2 años.</li><li>Diligenciar completamente el formulario de inscripción dentro de las fechas dispuestas para ello.</li><li>Elegir uno de las 7 categorías definidas por el Premio Social Skin.</li></ol>"
+                },
+                {
+                    "title": "¿Qué obtendrán los ganadores del premio?",
+                    "summary": "<p>Puede participar cualquier Universitario activo siempre y cuando cumpla los siguientes requisitos:</p><ol><li>Ser estudiante activo de pregrado, especialización o maestría de una Institución de Educación Superior reconocida por el Ministerio de Educación Nacional con registro calificado activo.</li><li>Contar con un proyecto de innovación social que esté o haya estado activo dentro de los últimos 2 años.</li><li>Diligenciar completamente el formulario de inscripción dentro de las fechas dispuestas para ello.</li><li>Elegir uno de las 7 categorías definidas por el Premio Social Skin.</li></ol>"
+                },
+                {
+                    "title": "Si resulto ﬁnalista ¿Social Skin costeará los gastos de viaje asociados a la capacitación y a la ceremonia de premiación en Bogotá?",
+                    "summary": "<p>Puede participar cualquier Universitario activo siempre y cuando cumpla los siguientes requisitos:</p><ol><li>Ser estudiante activo de pregrado, especialización o maestría de una Institución de Educación Superior reconocida por el Ministerio de Educación Nacional con registro calificado activo.</li><li>Contar con un proyecto de innovación social que esté o haya estado activo dentro de los últimos 2 años.</li><li>Diligenciar completamente el formulario de inscripción dentro de las fechas dispuestas para ello.</li><li>Elegir uno de las 7 categorías definidas por el Premio Social Skin.</li></ol>"
+                }
+            ]
+        }
+    },
+    "el-premio-colombiaColombia": {
+        "status": "ok",
+        "code": 200,
+        "messages": [],
+        "result": {
+            "showFinalist": false,
+            "showWinner": false,
+            "navigations": [
+                {
+                    "slug": "social-skin-colombia",
+                    "name": "social skin colombia"
+                }
+            ],
+            "banner": {
+                "title": "Categorias",
+                "summary": "<p>¡Escoje la categoria que se adapte al objectivo principal de tu proyecto!</p>",
+                "image": "../../../../assets/img/preguntas.webp",
+                "text_image_alt": "image"
+            },
+            "categories": [
+                {
+                    "name": "Inclusión, reducción de desigualdades y pobreza",
+                    "summary": "<p>Buscamos ideas innovadoras que involucren e incluyan activamente a grupos sociales que han sido excluidos de una participación en la sociedad. Además, que contribuyan a la lucha contra la desigualdad, la garantía de los derechos fundamentales y que trabajen por la reducción de la pobreza en todas sus dimensiones.</p>",
+                    "image": "../../../../assets/img/cat01.jpg",
+                    "text_image_alt": "esto es una prueba_alt",
+                    "pdf": "http://socialskin.test/storage/takZ27PSp9WIzlSNpH9xVn3otxSUF8ZBhHjh2TdQ.pdf"
+                },
+                {
+                    "name": "Salud y bienestar",
+                    "summary": "<p>Una vida sana garantiza el desarrollo sostenible de una comunidad. Buscamos proyectos que contribuyan al mejoramiento de la cobertura universal de la salud, a la generación de programas de educación sexual para la prevención de todo tipo de enfermedades, reducción de la tasa de mortalidad por cualquier causa y abuso de sustancias adictivas.</p>",
+                    "image": "../../../../assets/img/cat02.jpg",
+                    "text_image_alt": "esto es una prueba_alt",
+                    "pdf": "http://socialskin.test/storage/takZ27PSp9WIzlSNpH9xVn3otxSUF8ZBhHjh2TdQ.pdf"
+                },
+                {
+                    "name": "Educación de calidad",
+                    "summary": "<p>La educación es una de las herramientas más poderosas para cambiar el mundo. Por eso acompañaremos los proyectos que contribuyan a la garantía del acceso a la educación de calidad para niños y jóvenes en entornos e infraestructuras adecuadas, sin distinciones ni discriminaciones de ningún tipo, fortaleciendo el progreso individual y colectivo de las nuevas generaciones.</p>",
+                    "image": "../../../../assets/img/cat03.jpg",
+                    "text_image_alt": "esto es una prueba_alt",
+                    "pdf": "http://socialskin.test/storage/takZ27PSp9WIzlSNpH9xVn3otxSUF8ZBhHjh2TdQ.pdf"
+                },
+                {
+                    "name": "Medio Ambiente",
+                    "summary": "<p>Colombia es uno de los países más ricos en biodiversidad y entornos naturales. Debemos generar conciencia sobre el cuidado del medio ambiente para presentes y futuras generaciones. Trabajar por la protección de nuestros ecosistema, es contribuir a garantizar el acceso y la correcta gestión de los recursos naturales.</p>",
+                    "image": "../../../../assets/img/cat04.jpg",
+                    "text_image_alt": "esto es una prueba_alt",
+                    "pdf": "http://socialskin.test/storage/takZ27PSp9WIzlSNpH9xVn3otxSUF8ZBhHjh2TdQ.pdf"
+                },
+                {
+                    "name": "Ciudades y comunidades sostenibles",
+                    "summary": "<p>Los entornos físicos adecuados son fundamentales para el bienestar y el progreso de las ciudades. Queremos contribuir al fortalecimiento de la gestión pública, al desarrollo urbano, a la disminución del impacto ambiental, a la construcción de cultura ciudadana, a la movilidad y a la protección del patrimonio cultural y espacios públicos.</p>",
+                    "image": "../../../../assets/img/cat05.jpg",
+                    "text_image_alt": "esto es una prueba_alt",
+                    "pdf": "http://socialskin.test/storage/takZ27PSp9WIzlSNpH9xVn3otxSUF8ZBhHjh2TdQ.pdf"
+                },
+                {
+                    "name": "Trabajo decente y crecimiento económico sostenible",
+                    "summary": "<p>Estamos comprometidos con la creación de oportunidades de trabajo dignas, que contribuyan a la materialización de los derechos fundamentales de las personas. Queremos fomentar el crecimiento económico sostenible, apoyando iniciativas que promuevan la investigación, el acceso a nuevas tecnologías y el mejoramiento de nuestros sistemas de transporte.</p>",
+                    "image": "../../../../assets/img/cat06.jpg",
+                    "text_image_alt": "esto es una prueba_alt",
+                    "pdf": "http://socialskin.test/storage/takZ27PSp9WIzlSNpH9xVn3otxSUF8ZBhHjh2TdQ.pdf"
+                }
+            ]
+        }
+    },
+    "finalistasColombia": {
+        "status": "ok",
+        "code": 200,
+        "messages": [],
+        "result": {
+            "showFinalist": false,
+            "showWinner": false,
+            "navigations": [
+                {
+                    "slug": "social-skin-colombia",
+                    "name": "social skin colombia"
+                }
+            ],
+            "banner": {
+                "title": "!Felicitaciones a nuestros 21 finalistas!",
+                "summary": "Conoce, comenta y comparte los proyectos que sustentarán ante nuestros jurados.",
+                "image": "../../../../assets/img/banner-finalistas.png",
+                "text_image_alt": "21 finalistas"
+            }
+        }
+    },
+    "terminosCondiciones": {
+        "status": "ok",
+        "code": 200,
+        "messages": [],
+        "result": {
+            "navigations": [
+                {
+                    "slug": "social-skin-colombia",
+                    "name": "social skin colombia"
+                }
+            ],
+            "banner": {
+                "title": "Terminos y condiciones",
+                "image": "../../../../assets/img/preguntas.webp",
+                "text_image_alt": "terminos_condiciones"
+            },
+            "terms": [
+                {
+                    "title": "Aceptación de las Condiciones de Uso",
+                    "summary": "<p>Las presentes Condiciones de uso regulan la utilización del Sitio Web que el Grupo Bolívar por medio de Social Skin pone a disposición de los Usuarios.</p><p>Las Condiciones de Uso junto con el<a href='#'>Tratamiento de Datos Personales</a> constituyen en su conjunto los términos y condiciones que rigen el acceso y uso de la parte pública del Sitio Web (los 'Términos y Condiciones del Sitio Web').</p><p>El acceso y utilización del Sitio Web por parte del Usuario supone que éste acepta en su totalidad y se obliga a cumplir por completo los Términos y Condiciones del Sitio Web. Por lo tanto, el Usuario debe leer atentamente las presentes Condiciones de Uso así como los restantes Términos y Condiciones del Sitio Web en cada una de las ocasiones en que se proponga utilizar el Sitio Web, ya que éstos pueden sufrir modificaciones que serían comunicadas al Usuario con el nuevo acceso. El Grupo Bolívar por medio de Social Skin se reserva el derecho a actualizar, modificar o eliminar los presentes Términos y Condiciones del Sitio Web.</p><br>"
+                },
+                {
+                    "title": "Condiciones de Uso del Sitio Web",
+                    "summary": "<p>El Usuario se obliga a hacer un buen uso del Sitio Web, entendiéndose por buen uso el que sea conforme con la legislación vigente, buena fe y orden público. Igualmente, el Usuario se compromete a no usar el Sitio Web con fines fraudulentos, así como a no llevar a cabo conducta alguna que pudiera dañar la imagen, los intereses y los derechos del Grupo Bolívar por medio de Social Skin o de terceros. Asimismo, el Usuario se compromete a no realizar acto alguno con objeto de dañar, inutilizar o sobrecargar el Sitio Web, o que impidiera, de cualquier forma, la normal utilización y funcionamiento del mismo.</p><p>Se informa al Usuario que en el caso de incumplir el contenido o las obligaciones que se derivan de los Términos y Condiciones del Sitio Web o de cualesquiera otros términos o condiciones particulares recogidos en el Sitio Web, el Grupo Bolívar por medio de Social Skin se reserva el derecho a limitar, suspender o terminar su acceso al Sitio Web, adoptando cualquier medida técnica que sea necesaria con ese fin. Asimismo, el Grupo Bolívar se reserva la posibilidad de ejercer tales medidas en el supuesto de que sospeche razonablemente que el Usuario está vulnerando cualquiera de los términos recogidos en los Términos y Condiciones del Sitio Web o de cualesquiera otros términos o condiciones particulares recogidos en el Sitio Web.</p><p>El Grupo Bolívar por medio de Social Skin se reserva el derecho a actualizar, modificar o eliminar la información contenida en el Sitio Web, incluyendo los contenidos y/o servicios que en él se integran, pudiendo incluso limitar o permitir el acceso a dicha información, en cualquier momento y sin previo aviso. Especialmente, el Grupo Bolívar se reserva el derecho a eliminar, limitar o impedir el acceso al Sitio Web cuando surjan dificultades técnicas por hechos o circunstancias ajenos al Grupo Bolívar por medio de Social Skin que, a su criterio, disminuyan o anulen los niveles de seguridad o estándares adoptados para el adecuado funcionamiento de dicho Sitio Web.</p>"
+                },
+                {
+                    "title": "Contenido del Sitio Web",
+                    "summary": "<p>La información contenida en el Sitio Web tiene finalidad informativa, y no proporciona ningún tipo de recomendación, no pudiéndose considerar en ningún caso como asesoramiento legal, fiscal, financiero, de inversión, técnico, ni oferta o garantía por parte del Grupo Bolívar a través de Social Skin, ni debe ser entendido como una recomendación para realizar operaciones, ni constituirá la base para la toma de decisiones.</p><p>El Grupo Bolívar por medio de Social Skin no será responsable por el uso que de la información contenida en el Sitio Web, ha de entenderse que dicha información, está acorde con la legislación Colombiana, y no va destinada a aquellos usuarios que actúen bajo otras jurisdicciones. La información suministrada por el Grupo Bolívar a través de Social Skin en el Sitio Web no constituye una opinión técnica.</p><p>El Grupo Bolívar por medio de Social Skin, no se hace responsable de que la información contenida en el Sitio Web responda a las expectativas del Usuario.</p><p>El Grupo Bolívar por medio de Social Skin, no responde de la veracidad, exactitud, suficiencia, integridad o actualización de las informaciones que no sean de elaboración propia y aquellas en las que se indique otra fuente. Tampoco se hace responsable de las opiniones o comentarios que puedan aparecer en el Sitio Web ya que, o bien podrían ser realizadas por los Usuarios a título personal, o bien provenir de las fuentes que se indican.</p><p>El Grupo Bolívar por medio de Social Skin se reserva el derecho a actualizar, modificar o eliminar la información contenida en el Sitio Web en los términos señalados anteriormente, no asumiendo compromiso alguno de comunicar cambios ni modificar el contenido del mismo.</p><p>El Usuario RECONOCE Y ACEPTA las anteriores declaraciones y adicionalmente en su condición de Usuario de este Sitio Web, GARANTIZA el cumplimiento de la normatividad legal vigente en Colombia.</p>"
+                },
+                {
+                    "title": "Política de enlaces ('Links')",
+                    "summary": "<p>Establecimiento de enlaces con el Sitio Web: Queda prohibido el establecimiento de enlaces con destino al Sitio Web, a menos que el mismo haya sido previamente autorizado por el Grupo Bolívar. En cualquier caso, una vez autorizado el enlace por el Grupo Bolívar, el mismo deberá establecerse en los siguientes términos:</p><p>En ningún caso la autorización otorgada por el Grupo Bolívar significa que:</p><ol><li>El Grupo Bolívar patrocina, colabora, verifica o supervisa el contenido y/o los servicios que se prestan a través del Sitio elazador.</li><li>Qué el Grupo Bolívar sea en modo alguno responsable del contenido del Sitio Enlazador.</li></ol><p>El Sitio Enlazador deberá cumplir fielmente con la legislación vigente en Colombia y no podrá en ningún caso albergar contenidos, propios o de terceros, que:</p><ol><li>Sean ilícitos, lesivos de derechos de terceros, nocivos, denigrantes, violentos, inadecuados o de cualquier otro modo contrarios a la moral, a los usos y a las buenas costumbres (pornográficos, racistas, etc.)</li><li>Induzcan o puedan inducir en el Usuario la falsa concepción de que el Grupo Bolívar suscribe, respalda, se adhiere o de cualquier manera apoya, las ideas, manifestaciones o expresiones, lícitas o ilícitas del remitente.</li><li>Resulten inapropiados o no pertinentes en relación con la actividad del Grupo Bolívar.</li></ol><p>En el supuesto de incumplimiento de cualquiera de los términos antes enunciados, el Grupo Bolívar podrá adoptar las medidas legales que procedan para tal efecto.</p>"
+                }
+            ]
+        }
+    },
+    "privacy": {
+        "status": "ok",
+        "code": 200,
+        "messages": [],
+        "result": {
+            "navigations": [
+                {
+                    "slug": "social-skin-colombia",
+                    "name": "social skin colombia"
+                }
+            ],
+            "banner": {
+                "title": "Politica de privacidad",
+                "image": "../../../../assets/img/preguntas.webp",
+                "text_image_alt": ""
+            },
+            "privacies": [
+                {
+                    "title": "",
+                    "summary": "<p>Al registrarme en la plataforma digital www.social-skin.com, declaro que entiendo y acepto que el Programa de Innovación Social <strong>Social Skin' del Grupo Bolívar</strong>, sociedad comercial legalmente constituida, identificada con el NIT No. 830.025448-5, domiciliada en la Avenida el Dorado No. 68 B-31, requerirá el uso de mis datos personales e información de carácter sensible como fotografías, voz y videos entre los cuales se incluye la información relacionada con mi profesión y oficio para las siguientes finalidades:</p><ul><li>Ser parte de la comunidad de Innovación Social 'Social Skin'</li><li>Recibir información sobre las actividades desarrolladas por el Programa de Innovación Social del Grupo Bolívar 'Social Skin'.</li><li>Participar en actividades desarrolladas por el Programa de Innovación Social del Grupo Bolívar 'Social Skin' en alianza o en coordinación con instituciones del Estado, sociedad civil, sector educativo y privado, fundaciones u organizaciones sociales.</li><li>Realizar análisis de intereses y preferencias, buscando ofrecer o desarrollar programas, proyectos y actividades que se ajusten a las necesidades de las personas.</li><li>Evaluar, mantener, mejorar y profundizar en el impacto y evolución del Programa de Innovación Social del Grupo Bolívar 'Social Skin'.</li><li>Suministrar información sobre actividades, eventos, novedades, comunicación y publicidad relacionada con el Programa de Innovación Social del Grupo Bolívar “Social Skin”.</li><li>Divulgar las actividades del Programa de Innovación Social del Grupo Bolívar 'Social Skin' en diferentes medios de comunicación abierta o cerrada como: programas televisivos o radiales, páginas web, streaming, redes sociales, plataformas de intercambio de videos y/o material editorial o publicitario elaborado por el Programa de Innovación Social del Grupo Bolívar 'Social Skin'.</li></ul><p>Todo lo anterior a través del envío de mensajes cortos de texto (SMS), mensajes de multimedia (MMS), correo electrónico, teléfono celular, teléfono fijo, fax, correo físico y redes sociales o medios similares cerrados o abiertos.</p><p>En los casos donde el beneficiario o titular de los datos es menor de edad, se tratarán los datos personales de mi(s) hijo(s), información de carácter sensible como fotografías, videos e información relacionada con la salud, cuyo suministro es facultativo. Entiendo que esa información será utilizada con total respeto a los derechos de los Titulares, y desde ahora autorizo de manera explícita su Tratamiento.</p><p>En el caso de haber incluido terceras personas para que puedan participar en el Programa de Innovación Social del Grupo Bolívar “Social Skin”, entiendo que los datos suministrados son los mínimos necesarios para participar en la convocatoria, y así poder obtener los beneficios del programa al que se haya postulado.</p><p>Así mismo, autorizo al Programa de Innovación Social del Grupo Bolívar “Social Skin” a compartir mi información personal con las empresas del Grupo Empresarial Bolívar, cuyo listado está disponible en la página web www.grupobolivar.com, opción 'Nuestras Compañías', con el propósito de que me hagan partícipe de sus actividades sociales, culturales y/o empresariales a través de los medios de comunicación ya enunciados.</p><p>Son derechos del Titular del Dato: acceso, actualización, rectificación y supresión. Los canales de consultas y reclamos son: (i) correo electrónico: gobierno.corporativo@grupobolivar.com; y, (ii) dirección física: la arriba indicada.</p><p>Puede conocer aquí las políticas de tratamiento de datos de Grupo Bolivar en www.grupobolivar.com o <a href='#'>descarguelos aquí</a>. </p>"
+                },
+                {
+                    "title": "Política de datos de navegación",
+                    "summary": "<h3>1. ¿Qué son y que no son las cookies/datos de navegación?</h3><p>Las cookies/datos de navegación son pequeños archivos de información o fragmentos de texto enviados por un Portal o Aplicación tecnológica de propiedad de El Grupo Bolívar o alguna de sus sociedades controladas o que se encuentren bajo el mismo nivel de control y que se almacenan en el navegador o dispositivo del usuario. A través de las cookies, los Portales recuerdan información sobre la visita de los usuarios, lo que permite que se proporcione una mejor y más segura experiencia de navegación en el mismo. Las cookies se asocian tanto a usuarios anónimos, es decir, aquellos que visitan los Portales sin identificarse o registrarse, como aquellos que sí lo hacen.</p><p>Por otro lado, las cookies no son un virus o cualquier otro tipo de programa malicioso que pueda dañar dispositivos de los usuarios. Adicionalmente las cookies no pueden borrar ni leer información del computador o dispositivo de los usuarios.</p><br><h3>2. ¿Cómo obtiene El Grupo Bolívar las cookies?</h3><ol><li><h4>Cookies Esenciales.</h4><p>Estas cookies son esenciales para el Uso del Portal, en el sentido de facilitar el proceso de registro en el mismo, así como permitir a los usuarios un acceso más rápido y seguro a los servicios pueda ofrecer a los usuarios ciertos servicios dentro del Portal y éste puede que no funcione con normalidad.</p></li><li><h4>Cookies Funcionales.</h4><p>Mediante el uso de las cookies funcionales, es posible para El Grupo Bolívar o el tercero que este contrate, personalizar los servicios que se ofrecen en el Portal, facilitando a cada usuario información que es o puede ser de su interés, en atención al uso que realiza de los servicios y a las páginas específicas que visita dentro del Portal. A través de estas cookies, El Grupo Bolívar o las terceras personas que contrate, podrán ofrecer a los usuarios una mejor experiencia y mejor rendimiento en la navegación dentro del Portal.</p></li><li><h4>Cookies de Publicidad.</h4><p>El Grupo Bolívar o el tercero que este contrate, mediante el uso de estas cookies, podrá entregarle al usuario publicidad que considere que puede llegar a ser de su interés, según las preferencias y comportamientos que el usuario tiene o ha tenido dentro de la red de Portales del Grupo Bolívar. A través de estas cookies, se podrá optimizar la publicidad que el usuario ve en el Portal. Las cookies de publicidad, podrán ser entregadas a anunciantes del Grupo Bolívar, para que sean utilizadas por estos para sus campañas de mercadeo y publicidad.</p></li><li><h4>Cookies de Análisis o Desempeño.</h4><p>A través de las cookies de análisis o desempeño, El Grupo Bolívar o el tercero que éste contrate, puede realizar distintos análisis y estudios de la información recolectada, con el fin de mejorar los productos y servicios que El Grupo Bolívar ofrece a los usuarios. El Grupo Bolívar y los terceros con los que contrate servicios para el uso de cookies, son los únicos que podrán acceder a la información almacenada en las cookies que se han instalado dentro del equipo del usuario.La información almacenada en las cookies no puede ser leída por otros usuarios, ni éstos podrán acceder a la misma.</p></li></ol><br><h3>4. ¿Puedo deshabilitar la instalación y uso de cookies por parte de El Grupo Bolívar?</h3><p>El usuario puede deshabilitar tanto la instalación de las cookies como el uso de las mismas por parte del Grupo Bolívar.Para deshabilitar la instalación y uso de cookies el usuario deberá realizar el procedimiento por navegador tal como se indica a continuación:</p><ul><li><strong>Internet Explorer:</strong><p>Herramientas > Opciones de Internet > Privacidad > Configuración.</p><p>Para más información, puede consultar el Soporte de Microsoft o la Ayuda del navegador.</p></li><li><strong>Firefox:</strong><p>Herramientas > Opciones > Privacidad > Historial > Configuración Personalizada.</p><p>Para más información, puede consultar el Soporte de Mozilla o la Ayuda del navegador.</p></li><li><strong>Chrome:</strong><p>Configuración > Mostrar opciones avanzadas > Privacidad > Configuración de contenido. </p><p>Para más información, puede consultar el Soporte de Google o la Ayuda del navegador.</p></li><li><strong>Safari:</strong><p>Preferencias > Seguridad.</p><p>Para más información, puede consultar el Soporte de Apple o la Ayuda del navegador.</p></li></ul><p>Los sistemas de opt-out indicados anteriormente pueden conllevar que se instale en su equipo una cookie 'de rechazo' para que funcione su elección de desactivación.</p><p>Adicionalmente, existen otras herramientas de terceros, disponibles on line, que permiten a los usuarios detectar las cookies en cada sitio web que visita y gestionar su desactivación, por ejemplo:</p><ul><li><strong>Ghostery:</strong><a href='http://www.ghostery.com/faq' target='_blank'>http://www.ghostery.com/faq</a></li><li><strong>Vanilla Cookie Manager:</strong><a href='ttps://chrome.google.com/webstore/detail/vanilla-cookie-manager/' target='_blank''>https://chrome.google.com/webstore/detail/vanilla-cookie-manager/</a></li></ul><br><h3>5. ¿Qué ocurre si se deshabilitan las cookies?</h3><p>Si el usuario deshabilita la instalación o el uso de las cookies para los Portales, podrá perder o afectar algunas funcionalidades del sitio, como por ejemplo:</p><ol><li>Poder ingresar a los Portales sin necesidad de indicar en cada ocasión su usuario y contraseña, esto le ahorrará tiempo y le permitirá utilizar funcionalidades como boletines, alertas, noticias guardadas, entre otros.</li><li>Publicación de comentarios dentro de los Portales.</li><li>Acceso al contenido sin restricción dentro de los Portales.</li><li>Seguridad en el uso de la información que se ingresa en los Portales.</li><li>Rapidez en el uso de algún servicio dentro de los Portales.</li></ol><br><h3>6. ¿El Grupo Bolívar comparte la información obtenida a través de las cookies con terceras personas?</h3><p>El Grupo Bolívar podrá compartir información obtenida a través de las cookies con personas externas o terceros (aliados,clientes, proveedores o empresas vinculadas al Grupo Bolívar), con el fin de mejorar la usabilidad y servicios al usuario.Así mismo, la información que se recibe a través de las cookies será utilizada por El Grupo Bolívar y los anteriores terceros,para los fines descritos en el presente documento, los indicados en nuestra Política de privacidad, y cualquiera de sus actualizaciones.</p><br><h3>7. ¿Dónde está almacenada la información obtenida a través de las cookies?</h3><p>El Grupo Bolívar podrá contratar terceras personas encargadas de almacenar y obtener la información a través de las cookies,o que incluyan cookies dentro de los portales del Grupo Bolívar, personas que podrán estar localizadas dentro de Colombia o en el exterior. Así mismo, El Grupo Bolívar podrá entregar a terceros, la información que se obtenga de las cookies para crear perfiles de usuarios, ofrecer campañas personalizadas, sin que lo anterior, implique entrega de información personal.</p>"
+                }
+            ]
+        }
+    },
+    "sitemap": {
+        "status": "ok",
+        "code": 200,
+        "messages": [],
+        "result": [
+            {
+                "url": "/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "lastmod": "2019-07-12",
+                "changefreq": "daily",
+                "priority": "0.9"
+            },
+            {
+                "url": "/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/categoria",
+                "lastmod": "2019-07-12",
+                "changefreq": "daily",
+                "priority": "0.9"
+            },
+            {
+                "url": "/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/criterios-de-evaluacion",
+                "lastmod": "2019-07-12",
+                "changefreq": "daily",
+                "priority": "0.9"
+            },
+            {
+                "url": "/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/calendario",
+                "lastmod": "2019-07-12",
+                "changefreq": "daily",
+                "priority": "0.9"
+            },
+            {
+                "url": "/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/jurados",
+                "lastmod": "2019-07-12",
+                "changefreq": "daily",
+                "priority": "0.9"
+            },
+            {
+                "url": "/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/aliados",
+                "lastmod": "2019-07-12",
+                "changefreq": "daily",
+                "priority": "0.9"
+            },
+            {
+                "url": "/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/logros-finalistas",
+                "lastmod": "2019-07-12",
+                "changefreq": "daily",
+                "priority": "0.9"
+            },
+            {
+                "url": "/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/faqs",
+                "lastmod": "2019-07-12",
+                "changefreq": "daily",
+                "priority": "0.9"
+            },
+            {
+                "url": "/politicas-de-privacidad",
+                "lastmod": "2019-07-12",
+                "changefreq": "daily",
+                "priority": "0.9"
+            },
+            {
+                "url": "/terminos-y-condiciones",
+                "lastmod": "2019-07-12",
+                "changefreq": "daily",
+                "priority": "0.9"
+            },
+            {
+                "url": "/bases-y-condiciones-del-premio",
+                "lastmod": "2019-07-12",
+                "changefreq": "daily",
+                "priority": "0.9"
+            }
+        ]
+    },
+    "el-premio-colombia-evaluacionColombia": {
+        "status": "ok",
+        "code": 200,
+        "messages": [],
+        "result": {
+            "showFinalist": false,
+            "showWinner": false,
+            "navigations": [
+                {
+                    "slug": "social-skin-colombia",
+                    "name": "social skin colombia"
+                }
+            ],
+            "banner": {
+                "title": "Criterios de evaluacion",
+                "summary": "<p>cada proyecto inspira social esta es una prueba del nuevo modulo de evaluacion</p>",
+                "image": "../../../../assets/img/preguntas.webp",
+                "text_image_alt": "image"
+            },
+            "categories": [
+                {
+                    "name": "Inclusión, reducción de desigualdades y pobreza",
+                    "summary": "<p>Buscamos ideas innovadoras que involucren e incluyan activamente a grupos sociales que han sido excluidos de una participación en la sociedad. Además, que contribuyan a la lucha contra la desigualdad, la garantía de los derechos fundamentales y que trabajen por la reducción de la pobreza en todas sus dimensiones.</p>",
+                    "image": "../../../../assets/img/cat01.jpg",
+                    "text_image_alt": "esto es una prueba_alt",
+                    "pdf": "http://socialskin.test/storage/takZ27PSp9WIzlSNpH9xVn3otxSUF8ZBhHjh2TdQ.pdf"
+                },
+                {
+                    "name": "Salud y bienestar",
+                    "summary": "<p>Una vida sana garantiza el desarrollo sostenible de una comunidad. Buscamos proyectos que contribuyan al mejoramiento de la cobertura universal de la salud, a la generación de programas de educación sexual para la prevención de todo tipo de enfermedades, reducción de la tasa de mortalidad por cualquier causa y abuso de sustancias adictivas.</p>",
+                    "image": "../../../../assets/img/cat02.jpg",
+                    "text_image_alt": "esto es una prueba_alt",
+                    "pdf": "http://socialskin.test/storage/takZ27PSp9WIzlSNpH9xVn3otxSUF8ZBhHjh2TdQ.pdf"
+                },
+                {
+                    "name": "Educación de calidad",
+                    "summary": "<p>La educación es una de las herramientas más poderosas para cambiar el mundo. Por eso acompañaremos los proyectos que contribuyan a la garantía del acceso a la educación de calidad para niños y jóvenes en entornos e infraestructuras adecuadas, sin distinciones ni discriminaciones de ningún tipo, fortaleciendo el progreso individual y colectivo de las nuevas generaciones.</p>",
+                    "image": "../../../../assets/img/cat03.jpg",
+                    "text_image_alt": "esto es una prueba_alt",
+                    "pdf": "http://socialskin.test/storage/takZ27PSp9WIzlSNpH9xVn3otxSUF8ZBhHjh2TdQ.pdf"
+                },
+                {
+                    "name": "Medio Ambiente",
+                    "summary": "<p>Colombia es uno de los países más ricos en biodiversidad y entornos naturales. Debemos generar conciencia sobre el cuidado del medio ambiente para presentes y futuras generaciones. Trabajar por la protección de nuestros ecosistema, es contribuir a garantizar el acceso y la correcta gestión de los recursos naturales.</p>",
+                    "image": "../../../../assets/img/cat04.jpg",
+                    "text_image_alt": "esto es una prueba_alt",
+                    "pdf": "http://socialskin.test/storage/takZ27PSp9WIzlSNpH9xVn3otxSUF8ZBhHjh2TdQ.pdf"
+                },
+                {
+                    "name": "Ciudades y comunidades sostenibles",
+                    "summary": "<p>Los entornos físicos adecuados son fundamentales para el bienestar y el progreso de las ciudades. Queremos contribuir al fortalecimiento de la gestión pública, al desarrollo urbano, a la disminución del impacto ambiental, a la construcción de cultura ciudadana, a la movilidad y a la protección del patrimonio cultural y espacios públicos.</p>",
+                    "image": "../../../../assets/img/cat05.jpg",
+                    "text_image_alt": "esto es una prueba_alt",
+                    "pdf": "http://socialskin.test/storage/takZ27PSp9WIzlSNpH9xVn3otxSUF8ZBhHjh2TdQ.pdf"
+                },
+                {
+                    "name": "Trabajo decente y crecimiento económico sostenible",
+                    "summary": "<p>Estamos comprometidos con la creación de oportunidades de trabajo dignas, que contribuyan a la materialización de los derechos fundamentales de las personas. Queremos fomentar el crecimiento económico sostenible, apoyando iniciativas que promuevan la investigación, el acceso a nuevas tecnologías y el mejoramiento de nuestros sistemas de transporte.</p>",
+                    "image": "../../../../assets/img/cat06.jpg",
+                    "text_image_alt": "esto es una prueba_alt",
+                    "pdf": "http://socialskin.test/storage/takZ27PSp9WIzlSNpH9xVn3otxSUF8ZBhHjh2TdQ.pdf"
+                }
+            ]
+        }
+    }
+}

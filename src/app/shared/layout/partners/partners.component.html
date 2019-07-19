@@ -1,0 +1,17 @@
+<div class="partners-carousel medium">
+	<h2 class="main-title">{{objectHtml.allies.section.title}}</h2>
+	<div class="container">
+		<ngx-slick-carousel class="carousel" [config]="partnersConfig">
+			<div ngxSlickItem class="slide" *ngFor="let dataAllies of objectHtml.allies.data">
+				<a [href]="dataAllies.link">
+					<picture class="box-img">
+						<source type="image/webp" srcset="">
+						<source type="image/jp2" srcset="">
+						<source type="image/jxr" srcset="">
+						<img [src]="dataAllies.image" alt="Image" class="img-contain">
+					</picture>
+				</a>
+			</div>
+		</ngx-slick-carousel>
+	</div>
+</div>

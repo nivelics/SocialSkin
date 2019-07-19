@@ -1,0 +1,64 @@
+.mat-expansion-panel{
+	border: 1px solid $ui-03;
+	border-radius: 4px !important;
+	margin-bottom: 60px;
+	&:not([class*=mat-elevation-z]){
+		box-shadow: none;
+	}	
+	.mat-expansion-panel-header{			
+		font-family: $mainFontlight;
+		font-size: 16px;
+		padding: 0 15px;
+		padding-right: 22px;
+		h2{
+			font-family: $mainFontlight;
+			font-size: 16px;
+			font-weight: normal;
+		}
+	}
+	.mat-expansion-panel-header-title{
+		align-items: center;
+		color: $thirdColor;
+		i{
+			font-size: 35px;
+			margin-left: 3px;
+			margin-right: 12px;
+		}
+	}
+	.mat-expansion-panel-body{
+		color: $ui-02;
+		font-family: $secondFontMedium;
+		font-size: 16px;
+		line-height: 21px;
+		padding: 0 65px 36px;
+		ol,
+		ul{
+			padding-left: 14px;
+			li{
+				margin-bottom: 5px;
+			}
+		}
+		p{
+			margin: 10px 0 28px;
+		}
+	}
+	&.mat-expanded{
+		.mat-expansion-panel-header{	
+			font-family: $mainFontBold;
+		}
+	}
+}
+
+.mat-accordion{
+	.mat-expansion-panel{
+		margin-bottom: 20px;
+	}
+	.mat-expansion-indicator{
+		&:after{
+			border-width: 0 3px 3px 0;
+			color: $thirdColor;
+			font-size: 20px;
+			padding: 5px;
+		}		
+	}
+}

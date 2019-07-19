@@ -1,0 +1,18 @@
+<div class="grid">
+	<h2 class="main-title">{{objectHtml.categories.section.title}}</h2>
+	<p class="main-lead" [innerHtml]="objectHtml.categories.section.summary"></p>
+	<div class="row" *ngFor="let objectMatrixHtml of matrixObjectHtml">
+		<div class="item" *ngFor="let objectCategories of objectMatrixHtml">
+			<picture>
+				<source type="image/webp" [srcset]="objectCategories.image">
+				<source type="image/jp2" srcset="">
+				<source type="image/jxr" srcset="">
+				<img [src]="objectCategories.image" alt="Image" class="img-contain">
+			</picture>
+			<div class="info">
+				<h3 class="title">{{objectCategories.name}}</h3>
+				<p class="desc">{{objectCategories.summary}}</p>
+			</div>
+		</div>
+	</div>
+</div>

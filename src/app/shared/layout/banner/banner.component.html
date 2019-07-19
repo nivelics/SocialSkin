@@ -1,0 +1,17 @@
+<div class="main-banner {{bg}} {{big_banner ? 'big_banner' : ''}}">
+	<div class="container">
+		<div class="col-left">
+			<picture>
+				<source type="image/webp" [srcset]="image">
+				<source type="image/jp2" srcset="">
+				<source type="image/jxr" srcset="">
+				<img [src]="image" [alt]="textImageAltBanner">
+			</picture>
+		</div>
+		<div class="col-right">
+			<h1 class="title">{{title}}</h1>
+			<p class="lead" *ngIf="showText" [innerHtml]="objectHtml.banner.summary"></p>
+			<a class="btn-line" *ngIf="showButton">{{objectHtml.banner.buttonText}}</a>
+		</div>
+	</div>
+</div>

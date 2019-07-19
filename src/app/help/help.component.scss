@@ -1,0 +1,120 @@
+@import "../../assets/scss/global/variables";
+@import "../../assets/scss/global/extends";
+
+.main-title{
+	color: $sixColor;
+	font-size: 24px;
+	padding-top: 20px;
+	position: relative;
+	text-align: center;
+	&:after{
+		background: $sixColor;
+	}
+}
+
+p{
+	color: $ui-02;
+	font-size: 16px;
+	margin-bottom: 32px;
+	text-align: center;
+}
+
+.form-item{
+	margin-bottom: 30px;
+	position: relative;
+	label{
+		background: $ui-04;
+		color: $sixColor;
+		font-size: 12px;
+		font-family: $mainFontBold;
+		left: 10px;
+    	padding: 0 6px;
+		position: absolute;
+		top: -7px;
+	}
+	input{
+		border: 1px solid #999;
+		border-radius: 5px;
+		display: block;
+		color: $ui-02;
+		font-family: $secondFontMedium;
+		font-size: 16px;
+		height: 60px;
+		padding: 0 12px;
+		width: calc(100% - 24px);
+		&:focus{
+			outline: none;
+		}
+		&[type="checkbox"]{
+			appearance: none;
+			border: 1px solid #999;
+			display: inline-block;
+			height: 16px;
+			padding: 0;
+			vertical-align: top;
+			width: 16px;
+			&:checked{
+				background: $sixColor;
+			}
+		}
+		&[type="number"]{
+			appearance: none;
+		}
+	}
+	textarea{
+		border: 1px solid #999;
+		border-radius: 5px;
+		height: 140px;
+		padding: 0 12px;
+		width: calc(100% - 24px);
+	}
+	&.check{
+		label{
+			color: $ui-02;
+			display: inline-block;
+			font-family: $secondFontMedium;
+			position: static;
+			vertical-align: top;
+			width: 90%;
+			a{
+				color: $sixColor;
+			}
+		}
+	}
+	.btn-line{
+		background: transparent;
+		border: 3px solid $sixColor;
+		border-radius: 8px;
+		color: $sixColor;
+		cursor: pointer;
+		font-family: $mainFontBold;
+		font-size: 16px;
+		max-width: 230px;
+		transition: all .8s;
+		&:hover{
+			background: $sixColor;
+			color: $ui-04;
+			transition: all .8s;
+		}
+	}
+}
+mat-error{
+	font-size: 12px;
+}
+.btn-close{
+	background: transparent;
+	border: 0;
+	color: $ui-03;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+@media screen and (max-width: 767px){
+	.main-title{
+		font-size: 18px;
+	}
+}

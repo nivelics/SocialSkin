@@ -1,0 +1,33 @@
+<app-banner [big_banner]="'true'" [bgColorHeader]="false" [showMenu]="false"  [showText]="'true'"  [paramsTypeModuleIntegrate]="'prehome'" ></app-banner>
+<div>
+	<h2 class="main-title">{{objectHtml.contest_currents.section.title}}</h2>
+	<div class="banner-cta bg01" *ngFor="let objectContestCurrents of objectHtml.contest_currents.data">
+		<picture class="box-img">
+			<source type="image/webp" srcset="">
+			<source type="image/jp2" srcset="">
+			<source type="image/jxr" srcset="">
+			<img [src]="objectContestCurrents.image" alt="Premio Centroamérica" class="img-contain">
+		</picture>
+		<div class="info">
+			<p class="title">{{objectContestCurrents.name}}</p>
+			<a class="btn-line" >Ver mas</a>
+		</div>
+	</div>
+</div>
+<div>
+	<h2 class="main-title">{{objectHtml.contest_previous.section.title}}</h2>
+	<div class="banner-cta bg02" *ngFor="let objectPreviousContest of objectHtml.contest_previous.data">
+		<picture class="box-img">
+			<source type="image/webp" srcset="">
+			<source type="image/jp2" srcset="">
+			<source type="image/jxr" srcset="">
+			<img [src]="objectPreviousContest.image" alt="Premio Colombia" class="img-contain">
+		</picture>
+		<div class="info">
+			<p class="title">{{objectPreviousContest.name}}</p>
+			<a class="btn-line" >Ver mas</a>
+		</div>
+	</div>
+</div>
+<app-grid></app-grid>
+<app-carousel [video]="false"></app-carousel>

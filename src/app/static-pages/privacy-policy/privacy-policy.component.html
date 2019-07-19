@@ -1,0 +1,8 @@
+<app-banner [bg]="'yellow'" [showMenu]="true" [paramsTypeModuleIntegrate]="'privacy'"></app-banner>
+
+<div class="container">
+	<div *ngFor="let objectPrivacy of objectHtml.privacies">
+		<h2 class="main-title" *ngIf="objectPrivacy.title">{{objectPrivacy.title}}</h2>
+		<div [innerHtml]="objectPrivacy.summary"></div>
+	</div>
+</div>

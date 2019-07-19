@@ -1,0 +1,90 @@
+@import "../../../../assets/scss/global/variables";
+@import "../../../../assets/scss/global/extends";
+
+.grid{	
+	.row{
+		display: flex;
+		flex-direction: row;
+	}
+	.item{
+		height: 319px;
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+		&:before{
+			content: "";
+			background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+			display: block;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			transition: background .5s;
+			top: 0;
+			width: 100%;
+		}
+		.info{
+			bottom: 10px;
+			color: $ui-04;
+			left: 32px;
+			position: absolute;
+			transition: bottom .5s;
+			z-index: 1;
+		}
+		.title{
+			color: $ui-04;
+			font-family: $mainFontBold;
+			font-size: 24px;
+			line-height: 32px;
+			margin-bottom: 15px;
+		}
+		.desc{
+			display: none;
+			font-family: $secondFontMedium;
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+}
+.img-contain{
+	height: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	width: 100%;
+}
+
+
+@media screen and (min-width: 1024px){
+	.grid{	
+		.item{
+			&:hover{
+				&:before{
+					background: rgba(161,52,225,0.65);
+					transition: background .5s;
+				}
+				.info{
+					bottom: 25px;
+					transition: bottom .5s;
+				}
+				.desc{
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px){
+	.grid{
+		.row{
+			flex-direction: column;
+		}
+		.item{
+			.desc{
+				display: block;
+			}
+			.title{
+				padding-right: 20px;
+			}
+		}
+	}
+}
